@@ -1,0 +1,21 @@
+python3 explainable_fold/exp_sub.py --seed 0 \
+ --fasta_dir path_to_fasta_files\
+ --loss_type tm \
+ --opt_type min \
+ --alp 0.2 \
+ --leaky 0.1 \
+ --max_l 384 \
+ --steps 100 \
+ --delta_init equal\
+ --output_dir ./explainable_fold/log \
+ --model_device "cuda:0" \
+ --lam 0.01 \
+ --lr 0.01 \
+ --jackhmmer_binary_path lib/conda/envs/openfold_venv/bin/jackhmmer \
+ --hhblits_binary_path lib/conda/envs/openfold_venv/bin/hhblits \
+ --hhsearch_binary_path lib/conda/envs/openfold_venv/bin/hhsearch \
+ --uniref90_database_path .../uniref90/uniref90.fasta \
+ --mgnify_database_path .../mgnify/mgy_clusters_2018_12.fa \
+ --bfd_database_path .../bfd/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt \
+ --uniclust30_database_path .../uniclust30/uniclust30_2018_08/uniclust30_2018_08 \
+ --pdb70_database_path .../pdb70/pdb70
