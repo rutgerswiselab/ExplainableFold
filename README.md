@@ -40,7 +40,6 @@ The ExplainableFold is based on OpenFold's implementation of AlphaFold2. To run 
 4. The generated counterfactual examples can be found in the ./explainable_fold/log folder.
 
 ## Reference
-If you find the method useful, please consider cite the paper:
 ```
 @inproceedings{tan2023explainablefold,
     author = {Tan, Juntao and Zhang, Yongfeng},
