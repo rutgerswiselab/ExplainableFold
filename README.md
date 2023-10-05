@@ -1,6 +1,6 @@
 # ExplainableFold: Understanding AlphaFold Prediction with Explainable AI
 ## Overall
-Pytorch implementation for paper "ExplainableFold: Understanding AlphaFold Prediction with Explainable AI".
+Pytorch implementation for paper "ExplainableFold: Understanding AlphaFold Prediction with Explainable AI", KDD 2023.
 
 ![](pic/overview.png)
 ### Paper link: 
@@ -42,10 +42,11 @@ The ExplainableFold is based on OpenFold's implementation of AlphaFold2. To run 
 ## Reference
 If you find the method useful, please consider cite the paper:
 ```
-@article{tan2023explainablefold,
-  title={ExplainableFold: Understanding AlphaFold Prediction with Explainable AI},
-  author={Tan, Juntao and Zhang, Yongfeng},
-  journal={arXiv preprint arXiv:2301.11765},
-  year={2023}
+@inproceedings{tan2023explainablefold,
+    author = {Tan, Juntao and Zhang, Yongfeng},
+    title = {ExplainableFold: Understanding AlphaFold Prediction with Explainable AI},
+    booktitle={Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+    pages = {2166–2176},
+    year = {2023}
 }
 ```
